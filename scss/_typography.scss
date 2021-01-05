@@ -1,0 +1,70 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", serif;
+}
+h1 {
+  font-weight: 700;
+  font-size: 48px;
+}
+.description {
+  font-style: italic;
+  font-size: 14px;
+  font-weight: 500;
+  color: #4f4f4f;
+}
+.stats {
+  &__icon {
+    color: #4f4f4f;
+  }
+
+  &__name {
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 700;
+    color: #bdbdbd;
+  }
+  &__value {
+    font-size: 14px;
+    font-weight: 500;
+    color: #333333;
+  }
+}
+.orange {
+  color: #f2994a;
+}
+.section-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #333333;
+}
+.section-subtitle {
+  font-style: italic;
+  font-size: 18px;
+  font-weight: 400;
+  color: #333333;
+}
+label {
+  color: #333333;
+  cursor: pointer;
+}
+input[type="checkbox"] {
+  width: 1.3em;
+  height: 1.3em;
+  background-color: white;
+  border-radius: 20%;
+  vertical-align: middle;
+  border: 1px solid #828282;
+  appearance: none;
+  outline: transparent;
+  cursor: pointer;
+  position: relative;
+  bottom: 2.5px;
+  margin-right: 5px;
+}
+input[type="checkbox"]:checked {
+  background-color: #f2994a;
+}

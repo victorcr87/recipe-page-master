@@ -1,5 +1,167 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Playfair+Display:wght@400;700&display=swap");
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", serif;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.description {
+  font-style: italic;
+  font-size: 14px;
+  font-weight: 500;
+  color: #4f4f4f;
+}
+
+.stats__icon {
+  color: #4f4f4f;
+}
+
+.stats__name {
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 700;
+  color: #bdbdbd;
+}
+
+.stats__value {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333333;
+}
+
+.orange {
+  color: #f2994a;
+}
+
+.section-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #333333;
+}
+
+.section-subtitle {
+  font-style: italic;
+  font-size: 18px;
+  font-weight: 400;
+  color: #333333;
+}
+
 label {
+  color: #333333;
+  cursor: pointer;
+}
+
+input[type="checkbox"] {
+  width: 1.3em;
+  height: 1.3em;
+  background-color: white;
+  border-radius: 20%;
+  vertical-align: middle;
+  border: 1px solid #828282;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  outline: transparent;
+  cursor: pointer;
+  position: relative;
+  bottom: 2.5px;
+  margin-right: 5px;
+}
+
+input[type="checkbox"]:checked {
+  background-color: #f2994a;
+}
+
+html,
+body {
+  width: 100%;
+  margin: 0;
+}
+
+header,
+main {
+  width: 66%;
+  margin: 0 auto;
+}
+
+.main-pic {
+  width: 100%;
+}
+
+header *,
+section {
+  width: 60%;
+}
+
+.stats {
+  float: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  width: 20%;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.stats__item {
+  margin-left: 20%;
+}
+
+.stats__icon {
+  display: inline;
+}
+
+.stats__name {
+  display: inline;
+}
+
+footer {
+  width: 100vw;
+  text-align: center;
+}
+
+label {
+  cursor: pointer;
   display: block;
+}
+
+input[type="checkbox"] {
+  width: 1.3em;
+  height: 1.3em;
+  background-color: white;
+  border-radius: 20%;
+  vertical-align: middle;
+  border: 1px solid #828282;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  outline: transparent;
+  cursor: pointer;
+  position: relative;
+  bottom: 2.5px;
+  margin-right: 5px;
+}
+
+input[type="checkbox"]:checked {
+  background-color: #f2994a;
 }
 /*# sourceMappingURL=style.css.map */
